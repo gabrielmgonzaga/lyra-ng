@@ -1,1 +1,1 @@
-angular.module('lyra', [])
+angular.module('lyra', [ui.router])
