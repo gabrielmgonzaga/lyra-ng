@@ -1,10 +1,10 @@
-body.collection {
+/*body.collection {
   background-image: url(../styles/images/backgrounds/blur.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-}
+}*/
 
 .album-covers { position: relative; }
 

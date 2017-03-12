@@ -1,11 +1,11 @@
-body.album {
+/*body.album {
   background-image: url(../styles/images/backgrounds/blur2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   padding-bottom: 225px;
-}
+}*/
 
 .album-cover-art {
   position: relative;
