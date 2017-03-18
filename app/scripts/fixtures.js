@@ -5,6 +5,6 @@ const okComputer = {
   year: '1997',
   albumArtUrl: 'https://upload.wikimedia.org/wikipedia/en/a/a1/Radiohead.okcomputer.albumart.jpg',
   songs: [
-    { name: 'Airbag', length: '161.71', audioUrl: ''}
+    { name: 'Airbag', length: '3:31', audioUrl: ''}
   ]
 }
