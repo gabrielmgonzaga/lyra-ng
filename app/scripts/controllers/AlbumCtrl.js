@@ -1,9 +1,9 @@
 (function() {
   angular
     .module('lyra')
-    .controller('AlbumCtrl', AlbumCtrl)
+    .controller('AlbumCtrl', ['Fixtures', AlbumCtrl])
 
-  function AlbumCtrl() {
-    this.albumData = angular.copy(okComputer)
+  function AlbumCtrl(Fixtures) {
+    this.albumData = Fixtures.getAlbum()
   }
 })()
