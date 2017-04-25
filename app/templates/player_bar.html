@@ -25,4 +25,4 @@
      </div>
  </section>
 
- <seek-bar></seek-bar>
+<seek-bar value="{{ playerBar.songPlayer.currentTime }}" max="{{ playerBar.songPlayer.currentSong.duration }}" on-change="playerBar.songPlayer.setCurrentTime(value)"></seek-bar>
